@@ -18,13 +18,19 @@ public class Main {
         listaLiczbCalkowitych.add(10);
         listaLiczbCalkowitych.add(11);
         listaLiczbCalkowitych.add(12);
-        
-        for (Integer liczbCalkowitych : listaLiczbCalkowitych) {
+
+        /* for (Integer liczbCalkowitych : listaLiczbCalkowitych) {
             System.out.println(liczbCalkowitych);
+        } */
+
+        for (int i = listaLiczbCalkowitych.size() - 1; i >= 0; i--) {
+            System.out.print(listaLiczbCalkowitych.get(i) + " ");
         }
 
-        /* for (int i=0; i < listaLiczbCalkowitych.size(); i++){
-            System.out.println(listaLiczbCalkowitych.get(i));
-        } */
+        System.out.println(listaLiczbCalkowitych.reversed());
+        
+        /* for (Integer element : listaLiczbCalkowitych.reversed()) {
+            System.out.println(element);
+        } */ 
     }
 }

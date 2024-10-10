@@ -1,0 +1,1 @@
+Napisz statyczną metodę countZeros, która przyjmuje listę tablicową liczb całkowitych jako argument i zwraca liczbę wystąpień zera w liście tablicowej. Na przykład, dla [0, 1, 2, 0, 3, 0, 4], funkcja powinna zwrócić 3. Stwórz przypadek testowy.

@@ -1,3 +1,6 @@
+// Stwórz tablicę obiektów klasy Car (klasa zawiera publiczne pole brand). Następnie spróbuj odwołać się do pola brand jednego z 
+//obiektów w tablicy, nie inicjalizując wcześniej tablicy obiektami Car. Przeanalizuj wynik.
+
 public class Car {
 
     public String brand;

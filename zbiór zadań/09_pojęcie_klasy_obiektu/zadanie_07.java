@@ -1,3 +1,7 @@
+// Utwórz klasę Person zawierającą pole name. W klasie TestPerson, utwórz dwa 
+//obiekty klasy Person - person1 i person2 - oba odnoszące się do tego samego obiektu.Zmień wartość 
+//pola name przez person1 i wydrukuj wartość pola name przez person2. Przeanalizuj wynik.
+
 // KLASA Person
 
 public class Person {

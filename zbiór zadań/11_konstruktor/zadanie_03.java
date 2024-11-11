@@ -1,4 +1,4 @@
-// twórz klasę Car, która będzie zawierać trzy pola: brand, model, productionYear. 
+// Stwórz klasę Car, która będzie zawierać trzy pola: brand, model, productionYear. 
 // Zaimplementuj trzy konstruktory - pierwszy domyślny, drugi przyjmujący dwa argumenty 
 // (brand i model), trzeci przyjmujący trzy argumenty (brand, model, productionYear). 
 // W przypadku drugiego i trzeciego konstruktora, nazwy parametrów muszą być takie same 

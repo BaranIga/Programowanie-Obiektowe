@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         int[] tab = new int[20];
-        Random random = new Random(0);
+        Random random = new Random();
         int suma = 0;
 
         for(int i=0; i< tab.length; i++) {

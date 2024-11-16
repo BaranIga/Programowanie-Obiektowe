@@ -1,3 +1,9 @@
+//Napisz statyczną metodę copyArray, która przyjmuje tablicę liczb całkowitych jako 
+//argument i zwraca nową tablicę, która jest kopią pierwotnej. Funkcja powinna 
+//skopiować tablicę ręcznie, element po elemencie, bez korzystania z systemowych metod
+//kopiowania. Stwórz przypadek testowy.
+
+
 import java.util.Arrays;
 
 public class Main {

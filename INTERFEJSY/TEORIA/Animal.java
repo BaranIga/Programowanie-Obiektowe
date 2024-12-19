@@ -1,3 +1,5 @@
+// ABSTRACT CLASS
+
 public abstract class Animal {
 
     String name;

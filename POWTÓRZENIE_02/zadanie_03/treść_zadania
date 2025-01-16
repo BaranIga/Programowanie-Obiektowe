@@ -1,0 +1,6 @@
+Utwórz statyczną metodę generyczną sortAndReturnFirst, która przyjmuje tablicę elementów typu generycznego T, gdzie T rozszerza 
+Comparable<T>. Metoda powinna sortować tablicę i zwracać jej pierwszy element. Zabezpiecz metodę przed wywołaniem z pustą tablicą
+(o zerowej liczbie elementów) - stwórz nowy wyjątek o nazwie EmptyArrayException wymuszający jego obsługę,  
+który zostanie wywołany przy przekazaniu do metody pustej tablicy. Przetestuj tę metodę na różnych typach danych,
+w tym na nowo utworzonej klasie Book z polami title i author. Klasa Book powinna implementować generyczny interfejs 
+Comparable na podstawie pola title zgodnie z porządkiem naturalnym.

@@ -1,0 +1,4 @@
+W jednym projekcie wykonaj czynności:
+A. Stwórz abstrakcyjną klasę Game zawierającą publiczną abstrakcyjną metodę getRating(), która nie przyjmuje argumentów i zwraca double. Klasę umieść w pakiecie entertainment.
+B. Utwórz dwie klasy pochodne od Game: StrategyGame i AdventureGame. W obu klasach nadpisz metodę getRating(). Dla StrategyGame niech zwraca ocenę 8.5, a dla AdventureGame niech zwraca ocenę 7.3.
+C. W klasie TestGame w pakiecie entertainment utwórz listę tabllicową typu Game i zainicjalizuj ją 5 instancjami StrategyGame i AdventureGame. Iteruj po liście tablicowej wywołując metodę getRating() dla każdej gry (wyświetl oceny na standardowym wyjściu).

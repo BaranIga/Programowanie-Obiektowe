@@ -1,0 +1,7 @@
+if (element.compareTo(max) >= 0)
+
+- element.compareTo(max) – metoda compareTo() pochodzi z interfejsu Comparable<T> i zwraca:
+        - liczbę ujemną, jeśli element jest mniejszy niż max,
+        - zero, jeśli są równe,
+        - liczbę dodatnią, jeśli element jest większy niż max.
+- >= 0 – oznacza, że max zostanie zaktualizowane, jeśli element jest większy lub równy.
